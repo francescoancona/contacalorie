@@ -1,0 +1,19 @@
+{
+  "name": "ContaCalorie",
+  "short_name": "ContaCalorie",
+  "description": "Conta le calorie con la voce",
+  "start_url": "/ContaCalorie/",
+  "scope": "/ContaCalorie/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f0f4f0",
+  "theme_color": "#2e7d32",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

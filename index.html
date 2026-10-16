@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>ContaCalorie</title>
+
+  <!-- PWA -->
+  <link rel="manifest" href="/ContaCalorie/manifest.json" />
+  <meta name="theme-color" content="#2e7d32" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="ContaCalorie" />
+  <link rel="apple-touch-icon" href="/ContaCalorie/icons/icon.svg" />
+
+  <script type="module" crossorigin src="/ContaCalorie/assets/index-DDWGa7FX.js"></script>
+  <link rel="stylesheet" crossorigin href="/ContaCalorie/assets/index-tjlEIBSz.css">
+</head>
+<body>
+
+  <!-- Pages -->
+  <div id="page-dashboard" class="page active">
+    <div id="dashboard-content"></div>
+  </div>
+
+  <div id="page-trends" class="page">
+    <div id="trends-content"></div>
+  </div>
+
+  <!-- Bottom Nav -->
+  <nav class="bottom-nav">
+    <button class="nav-btn active" data-page="dashboard">
+      <span class="nav-icon">📊</span>
+      <span class="nav-label">Oggi</span>
+    </button>
+    <button class="nav-btn" data-page="trends">
+      <span class="nav-icon">📈</span>
+      <span class="nav-label">Trend</span>
+    </button>
+  </nav>
+
+  <!-- FAB mic -->
+  <button id="fab-mic" aria-label="Aggiungi alimento">🎤</button>
+
+  <!-- Overlay -->
+  <div id="overlay" class="overlay hidden"></div>
+
+  <!-- Bottom sheet -->
+  <div id="bottom-sheet" class="bottom-sheet">
+    <div class="sheet-handle"></div>
+    <div id="sheet-content"></div>
+  </div>
+
+</body>
+</html>
