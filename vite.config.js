@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/ContaCalorie/',
+  base: '/contacalorie/',
   build: {
     outDir: 'dist',
   },

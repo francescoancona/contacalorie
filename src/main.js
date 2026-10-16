@@ -234,7 +234,7 @@ function renderDashboardPage() {
 
 // ── Service Worker ────────────────────────────────────────────────────────────
 if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
-  navigator.serviceWorker.register('/ContaCalorie/sw.js').catch(() => {});
+  navigator.serviceWorker.register('/contacalorie/sw.js').catch(() => {});
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────

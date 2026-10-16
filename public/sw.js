@@ -1,8 +1,8 @@
 const CACHE_NAME = 'contacalorie-v1';
 
 const PRECACHE_URLS = [
-  '/ContaCalorie/',
-  '/ContaCalorie/index.html',
+  '/contacalorie/',
+  '/contacalorie/index.html',
 ];
 
 self.addEventListener('install', event => {
