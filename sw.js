@@ -41,7 +41,7 @@ self.addEventListener('fetch', event => {
       }).catch(() => {
         // Offline fallback: return cached index for navigation requests
         if (event.request.mode === 'navigate') {
-          return caches.match('/ContaCalorie/index.html');
+          return caches.match('/contacalorie/index.html');
         }
       });
     })
